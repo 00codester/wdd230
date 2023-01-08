@@ -1,0 +1,67 @@
+
+
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+
+header {
+    display: grid;
+    background-color: darkred;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 20px;
+    color: white;
+    text-shadow: 2px 2px 20px black;
+    box-shadow: 2px 2px 20px black;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0 auto;
+    grid-row: 2/3;
+    font-size: 2.5em;
+}
+
+.personalimg {
+    height: 100%;
+    width: 100%;
+    grid-row: 1/4;
+    box-shadow: 2px 2px 20px black;
+
+}
+
+.assignments {
+    padding: 20px;
+}
+
+.assignments h2 {
+    text-shadow: 2px 2px 20px black;
+    font-size: 2em;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+#lastUpdated {
+    color: yellow;
+}
+
+footer {
+    background-color: darkred;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    box-shadow: 2px 2px 20px black;
+}
+
+footer p {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
