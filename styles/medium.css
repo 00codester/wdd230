@@ -1,0 +1,17 @@
+@media screen and (min-width: 32.5em){
+    
+
+    body {
+
+        font-size: 1.5em;
+        max-width: 1000px;
+    }
+    header {
+        border-radius: 0px;
+    }
+    footer {
+        border-radius: 0px;
+    }
+
+
+}
