@@ -1,0 +1,30 @@
+@media screen and (min-width: 60em){
+
+    body {
+        max-width: 1000px;
+    }
+
+    #grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #dp1 {
+        padding: 0px;
+    }
+    #dp2 {
+        padding: 0px;
+    }
+
+    #dp3 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        max-width: 300px;
+
+    }
+
+
+
+
+
+
+
+}
