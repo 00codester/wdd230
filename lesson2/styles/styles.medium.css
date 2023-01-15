@@ -30,6 +30,10 @@
 /*        margin-top: 15px;*/
     }
 
+    #dp3 img {
+        max-width: 610px;
+    }
+
     footer {
         text-align: center;
     }
