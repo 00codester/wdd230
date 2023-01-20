@@ -42,8 +42,10 @@ section h3 {
 
 img.pics {
     padding-top: 10px;
-    max-width: 260px;
+    max-width: 90%;
     padding-right: 10px;
+    margin: auto;
+    display: block;
 
 }
 
