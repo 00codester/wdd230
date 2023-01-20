@@ -4,9 +4,12 @@
         font-size: 1.2em;
     }
 
-    img.content {
+    img.pics {
+        padding-top: 10px;
         max-width: 280px;
+        padding-right: 10px;
     }
+    
     #grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
