@@ -4,6 +4,9 @@
         font-size: 1.2em;
     }
 
+    .content img {
+        max-width: 280px;
+    }
     #grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -36,6 +39,7 @@
     footer {
         text-align: center;
     }
+}
 
 
 
