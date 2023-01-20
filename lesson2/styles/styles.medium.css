@@ -4,7 +4,7 @@
         font-size: 1.2em;
     }
 
-    .content img {
+    img.content {
         max-width: 280px;
     }
     #grid-container {
