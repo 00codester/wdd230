@@ -1,0 +1,74 @@
+body {
+
+    font-family: Helvetica, fantasy;
+    color: #1a1d1a;
+    font-size: 1.2em;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+header img{ 
+    display: block;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #F9C784;
+
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 2em;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #8ab0ab;
+}
+
+nav a:visited {
+    color: #1a1d1a;
+}
+
+main {
+    text-align: center;
+}
+
+#charcoal {
+    background-color: #3e505b;
+    color: white;
+    padding: 10px;
+}
+
+#crayola {
+    background-color: #f9c784;
+    padding: 10px;
+}
+
+#morning {
+    background-color: #8ab0ab;
+    padding: 10px;
+}
+
+#arial {
+    font-family: fantasy;
+}
+
+footer {
+    background-color: #f9c784;
+    padding: 20px;
+    text-align: center;
+}
