@@ -14,6 +14,7 @@ header h1 {
 header img{ 
     display: block;
     margin: 0 auto;
+
 }
 
 header {
@@ -21,22 +22,30 @@ header {
 
 }
 
-nav {
+/*nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     font-weight: bold;
 
+} */
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-nav a {
+nav li a {
+    display: block;
     text-decoration: none;
     font-size: 2em;
     padding: 20px;
+    text-align: center;
 }
 
-nav a:hover {
+nav li a:hover {
     background-color: #8ab0ab;
+    
+
 }
 
 nav a:visited {
