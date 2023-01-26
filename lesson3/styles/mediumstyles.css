@@ -1,9 +1,13 @@
 @media screen and (min-width: 32.5em){
-    nav ul {
+    /* nav ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         text-align: center;
         font-weight: bold;
 
+    } */
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
     }
 }
