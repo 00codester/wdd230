@@ -18,6 +18,12 @@ nav ul li a {
     border: none;
 }
 
+/** Current Date **/
+
+#currentDate {
+    margin: 1rem;
+}
+
 /** Main Section **/
 
 main {
@@ -65,10 +71,10 @@ main {
 #spot3 {display:block;}
 
 /** footer **/
-.lastMod {
+#lastMod {
+    margin-left: 1rem;
     display: inline;
 }
-
 
 }
 

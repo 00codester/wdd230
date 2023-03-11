@@ -133,8 +133,10 @@ footer {
     margin:0;
 }
 
-.lastMod {
+/* #lastMod {
     margin:0;
-}
+    display: block;
+    /* grid-column: 1/3; 
+} */
 
 }
