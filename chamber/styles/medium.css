@@ -1,26 +1,85 @@
 @media only screen and (min-width: 40rem) {
 
-header h1 {
-    margin-right: 20vw; 
-}
-#hamburgerBtn {
-    margin-left: 20vw;
+/** Header **/
 
+.logo {
+    width: 5.2rem;
+    height: 5rem;
+}
+
+.heading h1 {
+    font-size: 2.8rem;
+}
+
+#hamburgerBtn {
+    margin: 1rem 2vw;
+    font-size: 3rem;
+}
+
+.social {
+    margin-right: 2rem;
+}
+
+.social a {
+    padding-top: 1.3rem;
+}
+
+.social a img {
+    height: 3rem;
+    width: 3rem;
+    margin-left: 1rem;
+}
+
+nav ul li {
+    font-size: 1.5rem;
+}
+
+
+/** Main **/
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 .placeholder {
-    height: 20vh;
+    height: 15rem;
+    grid-column: 1/3;
+}
+
+#hero{
+    grid-row: 1/2;
+}
+
+#event {
+    grid-row: 6/7;
+    grid-column: 1/2;
+}
+
+#weather {
+    grid-row: 6/7;
+    grid-column: 2/3;
+}
+
+#news {
+    grid-row: 2/3;
+}
+
+#join {
+    display: block;
+    grid-row: 4/5;
 }
 
 #spotlight {
+    grid-row: 3/4;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 20vh;
+    height: 15rem;
 }
 
-.spotlight {
-    width: 40vw;
-    height: 16vh;
+.spotHolder {
+    margin: .5rem;
+    height: 12rem;
 }
 
 #spot1 {
@@ -31,14 +90,51 @@ header h1 {
     grid-column: 2/3;
 }
 
+/** Footer Section **/
+
 footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display:grid;
+    grid-template-columns: 3fr 2fr;
 }
 
-footer img {
-    display: flex;
+.footerLogo {
+    float: left;
+    margin: 1rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
+#address {
+    margin-top: 3rem;
+    margin-left: 12rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: left;
+}
+
+.contactInfo {
+    float: right;
+    margin-top: 3rem;
+}
+
+.contactInfo p {
+    margin: 0;
+}
+
+#copyright {
+    grid-column: 1/3;
+}
+
+#copyright p {
+    display: inline;
+    border-right: 1px solid rgba(0,0,0,.5);
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin:0;
+}
+
+.lastMod {
+    margin:0;
+}
 
 }
