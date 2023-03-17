@@ -209,6 +209,8 @@ h3{
     font-size: 3rem;
     color: #F9C784;
     text-shadow: #3E505B 1px 0 10px;
+    /* filter: drop-shadow(.05rem, .05rem, #3E505B); */
+    mix-blend-mode: difference;
 }
 
 .businessName {
