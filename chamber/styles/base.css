@@ -137,6 +137,18 @@ main p{
     font-size: 1.3rem;
 }
 
+div#meetingBanner.open {
+    display: block;
+}
+
+#meetingBanner {
+    display: none;
+    text-align: center;
+    padding: 1rem;
+    background-color: #3E505B;
+    color: white;
+}
+
 .placeholder {
     /* height: 10rem;
     border: 1px solid rgba(0,0,0, 0.5);

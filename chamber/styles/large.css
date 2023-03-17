@@ -37,6 +37,10 @@ main {
     margin: 0 auto;
 }
 
+#meetingBanner {
+    grid-column: 1/5;
+}
+
 .placeholder {
     margin: 1rem;
 }

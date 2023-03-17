@@ -16,3 +16,15 @@ dateField.innerHTML = `${fulldate}`;
 
 
 document.querySelector("#lastMod").textContent = `Last Modification: ${document.lastModified}`;
+
+function displayMeetingBanner () {
+    
+}
+
+
+// Display The Meeting Banner
+const dMB = now.getDay();
+
+if (dMB == 1 || dMB == 2){
+    document.getElementById("meetingBanner").classList.toggle("open");
+}
