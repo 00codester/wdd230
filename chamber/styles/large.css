@@ -55,6 +55,14 @@ main {
     
 }
 
+#heroBanner img{
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    /* max-height: 21.5rem; */
+
+}
+
 #event {
     grid-row: 1/2;
     grid-column: 1/2;
