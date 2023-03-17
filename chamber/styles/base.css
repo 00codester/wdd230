@@ -93,7 +93,7 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #333;
+    color: black;
     border-top: 1px solid rgba(0,0,0, 0.5);
 }
 
@@ -342,7 +342,7 @@ form fieldset {
 }
 
 form legend {
-    color: #F9C784; 
+    /* color: #F9C784;  */
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -351,7 +351,7 @@ form label.pInfo, label.business{
     display: block;
     padding-top: 2rem;
     font-size: 1rem;
-    color: #8AB0AB;
+    /* color: #8AB0AB; */
 }
 
 form label.pInfo input {
@@ -368,7 +368,7 @@ form label.pInfo input {
 form label.membership {
     display: block;
     padding: .75rem 0;
-    color: #8AB0AB;
+    /* color: #8AB0AB; */
 }
 
 form input.submitB{
