@@ -326,6 +326,10 @@ footer h2 {
     padding-bottom: 5rem;
 }
 
+.benefits{
+    display: none;
+}
+
 
 /* ----------Form ------------ */
 

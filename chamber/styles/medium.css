@@ -161,9 +161,39 @@ footer {
     margin:0;
 }
 
+/** Form Section **/
+
+
 form{
     grid-column: 1/3;
 }
 
+.memgrid{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    /* margin: 0 auto; */
+}
+
+.membership{
+    grid-column: 1/2;
+}
+
+
+.benefits {
+    display: block;
+    margin: 0 auto;
+    grid-column: 2/3;
+    background-color: #8AB0AB;
+    border-radius: 1rem;
+}
+
+.benefits td{
+    text-align: center;
+    padding: .5rem;
+}
+
+.benefits th{
+    padding: .5rem;
+}
 
 }

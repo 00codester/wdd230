@@ -55,12 +55,52 @@
                 <label class="pInfo">Business Name* <input type="text" required> </label>
             </fieldset>
 
-            <fieldset>
+            <fieldset class="memgrid">
                 <legend>Membership</legend>
-                    <label class="membership"><input type="radio" name="level" value="np">NP Membership</label>
-                    <label class="membership"><input type="radio" name="level" value="bronze">Bronze Membership</label>
-                    <label class="membership"><input type="radio" name="level" value="silver">Silver Membership</label>
-                    <label class="membership"><input type="radio" name="level" value="gold">Gold Membership</label>
+                    <div>
+                        <label class="membership"><input type="radio" name="level" value="np"> NP Membership</label>
+                        <label class="membership"><input type="radio" name="level" value="bronze"> Bronze Membership</label>
+                        <label class="membership"><input type="radio" name="level" value="silver"> Silver Membership</label>
+                        <label class="membership"><input type="radio" name="level" value="gold"> Gold Membership</label>
+                    </div>
+
+                    <table class="benefits">
+                        <tr>
+                            <td></td>
+                            <th>Cost</th>
+                            <th>Training</th>
+                            <th>Advertising</th>
+                            <th>Discounts</th>
+                        </tr>
+                        <tr>
+                            <th>NP</th>
+                            <td>Free</td>
+                            <td>X</td>
+                            <td>X</td>
+                            <td>&#x2713;</td>
+                        </tr>
+                        <tr>
+                            <th>Bronze</th>
+                            <td>$100</td>
+                            <td>&#x2713;</td>
+                            <td>X</td>
+                            <td>X</td>
+                        </tr>
+                        <tr>
+                            <th>Silver</th>
+                            <td>$200</td>
+                            <td>&#x2713;</td>
+                            <td>&#x2713;</td>
+                            <td>X</td>
+                        </tr>
+                        <tr>
+                            <th>Gold</th>
+                            <td>$250</td>
+                            <td>&#x2713;</td>
+                            <td>&#x2713;</td>
+                            <td>&#x2713;</td>
+                        </tr>
+                    </table>
 
 
             </fieldset>
