@@ -17,7 +17,7 @@ body{
 header {
     background-color: #F9C784;
     padding: .5rem;
-    color:#3E505B;
+    /* color:#3E505B; */
 }
 
 .logo {
@@ -129,9 +129,9 @@ nav ul.open {
 
 
 /**Main Section **/
-main{
+/* main{
     color: #3E505B;
-}
+} */
 
 main p{
     font-size: 1.3rem;
