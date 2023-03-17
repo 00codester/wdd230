@@ -179,7 +179,7 @@ div#meetingBanner.open {
 
 #heroBanner{
     display:block;
-    /* position: relative; */
+    position: relative;
     /* height: 10rem; */
     margin: 0;
     margin-top: 1rem;
