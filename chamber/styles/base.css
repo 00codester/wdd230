@@ -206,7 +206,7 @@ div#meetingBanner.open {
 
 h3{
     margin: 0;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #F9C784;
     text-shadow: #3E505B 1px 0 10px;
 }
@@ -217,7 +217,7 @@ h3{
 
 #event a {
     text-decoration: none;
-    color: #f9C784;
+    /* color: #f9C784; */
     text-shadow: #3E505B 1px 0 10px;
 }
 
