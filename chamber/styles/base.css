@@ -185,14 +185,9 @@ div#meetingBanner.open {
     margin-top: 1rem;
     padding: 0;
 }
-/* #heroBanner p {
 
-} */
 #heroBanner img{
     text-align: center;
-
-    
-    /* display: float; */
     height: 100%;
     width: 100%;
 }
@@ -229,6 +224,28 @@ h3{
 #weather {
     margin-left: 3rem;
     margin-right: 3rem;
+}
+
+#temperature {
+    font-size: 3rem;
+}
+
+#coverage {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.wind1 {
+    margin: 0;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0,0,0, 0.5);
+    
+}
+
+.wind2 {
+    margin: 0;
 }
 
 .slogan {
@@ -301,6 +318,11 @@ footer h2 {
 
 }
 
+/* thank you page */
+.thankYou{
+    margin: 1rem;
+    text-align: center;
+}
 
 
 /* ----------Form ------------ */
@@ -369,7 +391,7 @@ form label.business textarea {
     height: 10rem;
     padding: .75rem 1.5rem;
     border-radius: 1rem;
-    background-color: #F9C784 /*rgba(0,0,0,0.1); */
+    background-color: #F9C784; /*rgba(0,0,0,0.1); */
 
 }
 
@@ -379,39 +401,3 @@ form #businessPosition:invalid {
 
 
 
-
-
-
-/** Footer Stuff **/
-/* 
-img.footerLogo {
-    width: 100px;
-
-}
-
-footer h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 1.3em;
-}
-
-#address p {
-    padding: 0;
-    margin: 0;
-}
-
-#copyright {
-    padding-top: 10px;
-    border-top: 1px solid #3E505B;
-}
-#copyright p {
-    padding: 0;
-    margin: 0;
-
-}
-
-#name {
-    font-weight: bold;
-}
-
- */

@@ -28,3 +28,16 @@ const dMB = now.getDay();
 if (dMB == 1 || dMB == 2){
     document.getElementById("meetingBanner").classList.toggle("open");
 }
+
+//autocomplete date and time form input
+let objectDate = new Date();
+
+//definitely got this part off the internet
+var time = objectDate.toLocaleTimeString([], {
+    hourCycle: 'h24',
+    hour: '2-digit',
+    minute: '2-digit'
+});
+
+document.getElementById("autoTime").value= time;
+document.getElementById("autoDate").valueAsDate = objectDate;

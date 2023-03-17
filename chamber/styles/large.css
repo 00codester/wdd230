@@ -94,6 +94,14 @@ main {
 
 #spot3 {display:block;}
 
+
+/** thank you page **/
+.thankYou{
+    grid-column: 1/5;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
 /** footer **/
 #lastMod {
     margin-left: 1rem;

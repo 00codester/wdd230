@@ -110,6 +110,13 @@ main {
     grid-column: 2/3;
 }
 
+/** thank you page **/
+.thankYou{
+    grid-column: 1/3;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
 
 /** Footer Section **/
 
@@ -154,10 +161,5 @@ footer {
     margin:0;
 }
 
-/* #lastMod {
-    margin:0;
-    display: block;
-    /* grid-column: 1/3; 
-} */
 
 }
