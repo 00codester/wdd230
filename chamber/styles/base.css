@@ -217,7 +217,7 @@ h3{
 
 #event a {
     text-decoration: none;
-    /* color: #f9C784; */
+    color: black;
     text-shadow: #3E505B 1px 0 10px;
 }
 
@@ -373,7 +373,7 @@ form label.membership {
 
 form input.submitB{
     border: none;
-    background-color: #8AB0AB;
+    background-color: #3E505B;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
