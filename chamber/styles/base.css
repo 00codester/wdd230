@@ -129,9 +129,6 @@ nav ul.open {
 
 
 /**Main Section **/
-/* main{
-    color: #3E505B;
-} */
 
 main p{
     font-size: 1.3rem;
@@ -180,7 +177,6 @@ div#meetingBanner.open {
 #heroBanner{
     display:block;
     position: relative;
-    /* height: 10rem; */
     margin: 0;
     margin-top: 1rem;
     padding: 0;
@@ -203,16 +199,11 @@ div#meetingBanner.open {
     opacity: .8;
 }
 
-
-
 h3{
     margin: 0;
     font-size: 2rem;
-    /* color: #F9C784; */
     color: #4f1212;
     text-shadow: #3E505B 1px 0 10px;
-    /* filter: drop-shadow(.05rem, .05rem, #3E505B); */
-    /* mix-blend-mode: difference; */
 }
 
 .businessName {
@@ -258,8 +249,6 @@ h3{
 
 .busInfo{
     font-family: 'Inconsolata', monospace;
-    /* margin: 0;
-    font-size: 1rem; */
     border-top: 1px solid rgba(0,0,0,0.5);
 }
 
