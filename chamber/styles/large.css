@@ -94,7 +94,9 @@ main {
 
 #spot3 {display:block;}
 
-
+form {
+    grid-column: 1/5;
+}
 /** thank you page **/
 .thankYou{
     grid-column: 1/5;
