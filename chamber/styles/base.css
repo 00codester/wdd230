@@ -455,6 +455,8 @@ form #businessPosition:invalid {
     margin: 1rem;
     padding: 2rem;
     border-radius: 2rem;
+    background-color: #3E505B;
+    color: white;
 }
 
 section {
