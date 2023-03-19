@@ -75,7 +75,7 @@ if ("IntersectionObserver" in window) {
 
 const lvDocument = document.querySelector(".lsVisits");
 
-let lastVisit = Number(window.localStorage.getItem("lastVisit-ls"));
+let lastVisit = Number(localStorage.getItem("lastVisit-ls"));
 
 let today = new Date();
 let todayM = Date.now(); //millis in a day = 86400000
@@ -90,5 +90,5 @@ if (lvDocument !== null) {
 }
 
 
-window.localStorage.setItem("lastVisit-ls", todayM);
+localStorage.setItem("lastVisit-ls", todayM);
 
