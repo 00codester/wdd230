@@ -73,7 +73,22 @@ if ("IntersectionObserver" in window) {
     });
 }
 
+const lvDocument = document.querySelector(".lsVisits");
 
-// Local Storage on Discover Page
+let lastVisit = Number(window.localStorage.getItem("lastVisit-ls"));
 
+let today = new Date();
+let todayM = Date.now(); //millis in a day = 86400000
+
+if (lvDocument !== null) {
+    if (lastVisit !== 0) {
+        sinceVisited = (todayM - lastVisit) / 86400000;
+        lvDocument.textContent = sinceVisited.toFixed(0);
+    } else {
+        lvDocument.textContent = `Welcome!`;
+    }
+}
+
+
+window.localStorage.setItem("lastVisit-ls", todayM);
 

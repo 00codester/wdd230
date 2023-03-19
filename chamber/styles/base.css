@@ -402,6 +402,16 @@ form #businessPosition:invalid {
 
 /** Discover Page **/
 
+.lastV {
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.5);
+    margin: 1rem;
+    border-radius: 10rem;
+    background-color: #8AB0AB;
+}
+
 .ogImage img[data-src] {
     filter: blur(0.2em);
 
