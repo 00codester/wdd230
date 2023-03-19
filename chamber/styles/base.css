@@ -434,3 +434,53 @@ form #businessPosition:invalid {
     text-align: center;
 }
 
+
+/** Directory section **/
+
+
+.bgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    text-align: center;
+    padding: 1rem;
+
+}
+.blist section img {
+	display: none; 
+}
+
+.dispType { display: none;}
+
+.dispType button {
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+section {
+    background-color: #8AB0AB;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.taglabel {
+    font-weight: bold;
+}
+
+.card p {
+    margin: 0;
+    padding-bottom: .2em;
+    font-size: 1rem;
+}
+
+.card img {
+    box-shadow: 0 0 2rem black;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+

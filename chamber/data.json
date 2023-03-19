@@ -1,0 +1,76 @@
+{
+    "businesses": [
+        {
+            "bname": "Thankful Transport",
+            "address": "1234 Main St.",
+            "phone": "801-123-1234",
+            "website": "thankfultransport.com",
+            "logo": "images/truckLogo.webp",
+            "mlevel": "gold"
+        },
+        {
+            "bname": "Code Primera",
+            "address": "4321 Main St.",
+            "phone": "801-456-9876",
+            "website": "codeprimera.com",
+            "logo": "images/crayonLogo.webp",
+            "mlevel": "gold"
+        },
+        {
+            "bname": "Build A Treefort",
+            "address": "789 1st St.",
+            "phone": "801-369-7412",
+            "website": "buildatreefort.com",
+            "logo": "images/treeLogo.webp",
+            "mlevel": "gold"
+        },
+        {
+            "bname": "Bob's Bread",
+            "address": "852 Bakers St.",
+            "phone": "801-785-6541",
+            "website": "bobread.com",
+            "logo": "images/breadLogo.webp",
+            "mlevel": "gold"
+        },
+        {
+            "bname": "FlatLine Music",
+            "address": "547 12th St.",
+            "phone": "801-963-5687",
+            "website": "flatlinemusic.com",
+            "logo": "images/musicLogo.webp",
+            "mlevel": "gold"
+        },
+        {
+            "bname": "Game Heaven",
+            "address": "258 12th St.",
+            "phone": "801-020-2000",
+            "website": "gameheaven.com",
+            "logo": "images/gameLogo.webp",
+            "mlevel": "silver"
+        },
+        {
+            "bname": "Fashion Emily",
+            "address": "686 2nd St.",
+            "phone": "801-828-6117",
+            "website": "fashionemily.com",
+            "logo": "images/fashionLogo.webp",
+            "mlevel": "gold"
+        },
+        {
+            "bname": "Stinky Market",
+            "address": "5200 Washington Blvd.",
+            "phone": "801-666-1234",
+            "website": "stinkymarket.com",
+            "logo": "images/stinkyLogo.webp",
+            "mlevel": "bronze"
+        },
+        {
+            "bname": "Help A Kid",
+            "address": "741 Up St.",
+            "phone": "801-147-8520",
+            "website": "helpakid.com",
+            "logo": "images/helpLogo.webp",
+            "mlevel": "np"
+        }
+    ]
+}

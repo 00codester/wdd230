@@ -1,4 +1,4 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 67rem) {
 
 /** Header Section **/
 #hamburgerBtn {display:none;}
@@ -29,6 +29,10 @@ nav ul li a:hover {
 }
 
 /** Main Section **/
+main{
+    font-size: 1rem;
+    max-width: 1440px;
+}
 
 .homePage {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -121,10 +125,41 @@ form {
 
 /* discover page */
 .discoverPage {
-    font-size: 1rem;
-    max-width: 1440px;
+    /* font-size: 1rem;
+    max-width: 1440px; */
     margin: 0 auto;
 }
 
+/** directory page **/
+.directory{
+    margin: 0 auto;
 }
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin:0 auto;
+}
+
+.blist .card{
+    display: block;
+}
+
+.blist .card p {
+    display: inline;
+    padding: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
 

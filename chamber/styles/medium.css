@@ -204,8 +204,6 @@ form{
 }
 
 .words {
-    /* text-align: center; */
-    /* max-width: 880px; */
     padding: 2rem 4rem 2rem 4rem;
 }
 
@@ -221,6 +219,19 @@ form{
     opacity: .5;
     transform: scale(.98);
 }
+
+
+/** Directory stuff **/
+.dispType {
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+
 
 
 }
