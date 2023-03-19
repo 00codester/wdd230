@@ -400,3 +400,27 @@ form #businessPosition:invalid {
 
 
 
+/** Discover Page **/
+
+.ogImage img[data-src] {
+    filter: blur(0.2em);
+
+
+}
+
+
+.ogImage img{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    filter: blur(0em);
+    transition: filter 1s;
+    max-width: 580px;
+}
+
+.words {
+    padding: 2rem 4rem 2rem 4rem;
+    text-align: center;
+}
+

@@ -39,5 +39,41 @@ var time = objectDate.toLocaleTimeString([], {
     minute: '2-digit'
 });
 
-document.getElementById("autoTime").value= time;
-document.getElementById("autoDate").valueAsDate = objectDate;
+if (document.getElementById("autoTime") !== null && document.getElementById("autoDate") !== null) {
+    document.getElementById("autoTime").value= time;
+    document.getElementById("autoDate").valueAsDate = objectDate;
+}
+//lazy loading of Discover page
+
+let getImages = document.querySelectorAll("img[data-src]");
+
+
+const loadImages = (image) => {
+    image.setAttribute("src", image.getAttribute("data-src"));
+    image.onload = () => {
+        image.removeAttribute("data-src");
+    };
+};
+
+if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver((items, observer) => {
+        items.forEach((item) => {
+            if (item.isIntersecting) {
+                loadImages(item.target);
+                observer.unobserve(item.target);
+            }
+        });
+    });
+    getImages.forEach((img) => {
+        observer.observe(img);
+    });
+} else {
+    getImages.forEach((img) => {
+        loadImages(img);
+    });
+}
+
+
+// Local Storage on Discover Page
+
+

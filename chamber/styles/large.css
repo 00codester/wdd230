@@ -30,7 +30,7 @@ nav ul li a:hover {
 
 /** Main Section **/
 
-main {
+.homePage {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     font-size: 1rem;
     max-width: 1440px;
@@ -116,6 +116,14 @@ form {
 #lastMod {
     margin-left: 1rem;
     display: inline;
+}
+
+
+/* discover page */
+.discoverPage {
+    font-size: 1rem;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 }
