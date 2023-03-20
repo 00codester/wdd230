@@ -46,7 +46,7 @@
         </nav>
         <div id="currentDate"></div>
     </header>
-    <main>
+    <main class="contactWebPage">
         <div class="ogdenInfo">
             <h2 >Contact Us</h2>
             <p id="ogdenInfoP">Ogden Chamber of Commerce</p>
@@ -67,13 +67,14 @@
                 <label class="pInfo">Email* <input type="email" placeholder="johndoe@gmail.com" required> </label>
                 <label class="pInfo">Business Name* <input type="text" required> </label>
 
-                <label class="memberLabel">Are you a member?
-                    <div class="contactRadio">
-                        <label class="membership"><input type="radio" name="level" value="yes"> Yes</label>
-                        <label class="membership"><input type="radio" name="level" value="no"> No</label>
-                        <label class="membership"><input type="radio" name="level" value="ns"> Not Sure</label>
-                    </div>
-                </label>
+                <!-- <label class="memberLabel">Are you a member? -->
+                <div class="contactRadio">
+                    <p class="memberLabel">Are you a member?</p>
+                    <label class="membership"><input type="radio" name="level" value="yes"> Yes</label>
+                    <label class="membership"><input type="radio" name="level" value="no"> No</label>
+                    <label class="membership"><input type="radio" name="level" value="ns"> Not Sure</label>
+                </div>
+                <!-- </label> -->
 
                 <label class="business">What are your questions? <textarea></textarea> </label>
             </fieldset>
