@@ -47,7 +47,38 @@
         <div id="currentDate"></div>
     </header>
     <main>
+        <div class="ogdenInfo">
+            <h2 >Contact Us</h2>
+            <p id="ogdenInfoP">Ogden Chamber of Commerce</p>
+            <p>(801)621-8300</p>
+            <p>2380 Washington Blvd.</p>
+            <p>Suite 290</p>
+            <p>Ogden, UT 84401</p>
+            <p class="opHours">Monday - Friday 8 AM - 5 PM</p>
+        </div>
 
+
+        <form method="get" action="thankyou.html" class="contactForm">
+
+            <fieldset>
+                <legend>Get In Touch</legend>
+                <label class="pInfo">First Name* <input type="text" id="fname" name="fname" required> </label>
+                <label class="pInfo">Last Name* <input type="text" id="lname" name="lname" required></label>
+                <label class="pInfo">Email* <input type="email" placeholder="johndoe@gmail.com" required> </label>
+                <label class="pInfo">Business Name* <input type="text" required> </label>
+
+                <label class="memberLabel">Are you a member?
+                    <div class="contactRadio">
+                        <label class="membership"><input type="radio" name="level" value="yes"> Yes</label>
+                        <label class="membership"><input type="radio" name="level" value="no"> No</label>
+                        <label class="membership"><input type="radio" name="level" value="ns"> Not Sure</label>
+                    </div>
+                </label>
+
+                <label class="business">What are your questions? <textarea></textarea> </label>
+            </fieldset>
+            <input type="submit" value="Ask the Chamber!" class="submitB">
+        </form>
 
     </main>
     <footer>

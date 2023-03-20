@@ -151,8 +151,26 @@ form {
 }
 
 
+/** contact us **/
+.ogdenInfo {
+    text-align: center;
+}
 
+form label.pInfo input {
+    display: block;
+    max-width: 90rem;
+}
 
+form label.business textarea {
+    max-width: 90rem;
+    width: 100%;
+}
+
+form input.submitB{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
