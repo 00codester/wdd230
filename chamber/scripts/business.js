@@ -3,7 +3,7 @@ const url = "data.json";
 async function getBusiness() {
     const response = await fetch(url);
     const data = await response.json();
-    console.table(data.businesses);
+    //console.table(data.businesses);
     displayBusiness(data.businesses)
 }
 
