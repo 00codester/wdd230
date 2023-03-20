@@ -45,9 +45,9 @@ function GetWindChill(){
 
     const windchill = 35.74 + 0.6215 * speed - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
     const smallwc = windchill.toFixed(0);
-    console.log(temp);
-    console.log(speed);
-    console.log(windchill);
+    // console.log(temp);
+    // console.log(speed);
+    // console.log(windchill);
     if(temp <= 50 && speed > 3){
         dchill.innerHTML = smallwc + "&#8457;";
     }

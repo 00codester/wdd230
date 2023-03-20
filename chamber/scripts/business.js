@@ -49,7 +49,6 @@ const gridbutton = document.querySelector("#bgrid");
 const listbutton = document.querySelector("#blist");
 const display = document.querySelector("article");
 
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
 gridbutton.addEventListener("click", () => {
 	// example using arrow function
@@ -63,11 +62,3 @@ function showList() {
 	display.classList.add("blist");
 	display.classList.remove("bgrid");
 }
-
-
-// let listStyle = document.querySelector(".listStyle").addEventListener("click", displayList);
-// let picStyle = document.querySelector(".cardstyle").addEventListener("click", displayPics);
-
-// function displayList(){
-
-// }
