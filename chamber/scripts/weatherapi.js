@@ -10,7 +10,7 @@ async function apiFetch() {
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        //console.log(data); // this is for testing the call
+        console.log(data); // this is for testing the call
         displayResults(data);
       } else {
           throw Error(await response.text());
@@ -30,29 +30,8 @@ async function apiFetch() {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc.toUpperCase();
-    windSpeed.textContent = wspeed.toFixed(0);
-    GetWindChill();
+    windSpeed.textContent = wspeed;
+    //captionDesc.innerHTML = `<strong>${desc}</strong>`;
   }
   
   apiFetch();
-
-
-
-function GetWindChill(){
-    const temp = parseInt(document.getElementById("temp").textContent);
-    const speed = parseInt(document.getElementById("wspeed").textContent);
-    const dchill = document.getElementById("chill");
-
-    const windchill = 35.74 + 0.6215 * speed - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
-    const smallwc = windchill.toFixed(0);
-    console.log(temp);
-    console.log(speed);
-    console.log(windchill);
-    if(temp <= 50 && speed > 3){
-        dchill.innerHTML = smallwc + "&#8457;";
-    }
-    else{
-        dchill.textContent = "N/A";
-    }
-}
-

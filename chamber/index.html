@@ -61,9 +61,14 @@
         </div>
         <div class="placeholder" id="weather">
             <h3>Weather</h3>
-            <p id="temperature"><span id="temp">33</span>&#8457;</p>
-            <p id="coverage">Partly Cloudy</p>
-            <p class="wind1" >Wind Speed: <span id="wspeed">4</span>m/h</p>
+            <p id="temperature"><span id="temp"></span>&#8457;</p> <!--set as 33 for testing-->
+            <figure>
+                <img src="" alt="" id="weather-icon" />
+                <figcaption></figcaption>
+            </figure>
+            <!-- <p id="coverage"></p> -->
+                <!-- Partly Cloudy</p> -->
+            <p class="wind1" >Wind Speed: <span id="wspeed"></span> m/h</p> <!--4 min to get wind chill-->
             <p class="wind2">Wind Chill: <span id="chill"></span></p>
         </div>
         <div class="placeholder" id="news">
@@ -132,5 +137,6 @@
     </footer>
     <script src="scripts/scripts.js"></script>
     <script src="scripts/windchill.js"></script>
+    <!-- <script src="scripts/weatherapi.js"></script> -->
 </body>
 </html>

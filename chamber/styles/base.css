@@ -221,7 +221,22 @@ h3{
     margin-right: 3rem;
 }
 
+#weather figure {
+    margin-top: 0;
+}
+
+figcaption {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#weather-icon {
+    width: 10rem;
+    height: auto;
+}
+
 #temperature {
+    margin-bottom: 0;
     font-size: 3rem;
 }
 
