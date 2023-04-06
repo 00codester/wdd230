@@ -232,6 +232,14 @@ form fieldset textarea {
     height: 4rem;
 }
 
+form label input:required {
+    border-left: red solid 6px;
+}
+
+form label input:required:valid {
+    border-left: green solid 6px;
+}
+
 .specialtext {
     margin-right: 2rem;
 }
