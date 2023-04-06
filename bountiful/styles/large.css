@@ -25,13 +25,29 @@
     align-items: end;
 }
 
-#primaryNav li {
-    /* display: inline-flex;
-    justify-content: space-around; */
+.imgbanner{
+    display: none;
 }
 
 nav ul li a {
     border-top: none;
+}
+
+
+.mainimg {
+    grid-row: 1/2;
+}
+
+.weatherapp {
+    grid-row: 2/4;
+}
+
+#drinks {
+    grid-row: 2/3;
+}
+
+.callBtn {
+    grid-row: 3/4;
 }
 
 }
