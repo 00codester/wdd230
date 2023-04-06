@@ -7,13 +7,13 @@ function createReceipt () {
     const fruit3 = document.getElementById("fruit3").value;
     const extra = document.getElementById("instructions").value;
 
-    console.log(pname);
-    console.log(email);
-    console.log(phone);
-    console.log(fruit1);
-    console.log(fruit2);
-    console.log(fruit3);
-    console.log(extra);
+    // console.log(pname);
+    // console.log(email);
+    // console.log(phone);
+    // console.log(fruit1);
+    // console.log(fruit2);
+    // console.log(fruit3);
+    // console.log(extra);
     let receipt = document.getElementById("drinkOrder");
 
     if (pname !== "" && email !== "" && phone !== "") {
