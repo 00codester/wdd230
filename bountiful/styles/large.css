@@ -50,4 +50,18 @@ nav ul li a {
     grid-row: 3/4;
 }
 
+
+/* form css */
+.submitB {
+    width: 40%;
+}
+
+form fieldset label input {
+    display: block;
+    width: 40%;
+    height: 2rem;
+}
+
+
+
 }

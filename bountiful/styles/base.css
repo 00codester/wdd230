@@ -187,3 +187,65 @@ footer {
     padding-left: .5rem;
     padding-top: .5rem;
 }
+
+
+/* Form Section */
+form fieldset {
+    background-color: #e4ff1a;
+    border: 1px solid rgba(0,0,0,.5);
+    border-radius: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+form fieldset legend {
+    background-color: #e8aa14;
+    border: 1px solid rgba(0,0,0,.5);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+form fieldset label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form fieldset label input {
+    display: block;
+    width: 98%;
+    height: 2rem;
+    border: 1px solid rgba(0,0,0,.5);
+    border-radius: 1rem;
+}
+
+form fieldset label select {
+    display: block;
+    height: 2rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+form fieldset textarea {
+    display: block;
+    border-radius: 1rem;
+    width: 98%;
+    height: 4rem;
+}
+
+.specialtext {
+    margin-right: 2rem;
+}
+
+.submitDiv {
+    text-align: center;
+    margin: 1rem;
+}
+
+.submitB {
+    background-color: #e8aa14;
+    height: 3rem;
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,.5);
+    border-radius: 1rem;
+}
