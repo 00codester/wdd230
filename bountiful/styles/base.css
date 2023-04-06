@@ -110,6 +110,10 @@ nav ul.open {
     height: 10rem;
 }
 
+#dsfar{
+    font-size: 4rem;
+}
+
 .weatherapp{
     text-align: center;
     border: 1px solid rgba(0,0,0,.5);

@@ -1,4 +1,7 @@
 function createReceipt () {
+    let receipt = document.getElementById("drinkOrder");
+    receipt.textContent = "";
+
     const pname = document.getElementById("fname").value;
     const email = document.getElementById("email").value;
     const phone = document.getElementById("phone").value;
@@ -14,7 +17,7 @@ function createReceipt () {
     // console.log(fruit2);
     // console.log(fruit3);
     // console.log(extra);
-    let receipt = document.getElementById("drinkOrder");
+    
 
     if (pname !== "" && email !== "" && phone !== "") {
         let h3 = document.createElement("h3");
@@ -48,6 +51,12 @@ function createReceipt () {
 
         let freshform = document.getElementById("freshform");
         freshform.reset();
+
+        if (localStorage.clickcount) {
+            localStorage.clickcount = Number(localStorage.clickcount) + 1;
+          } else {
+            localStorage.clickcount = 1;
+          }
     }
 }
 

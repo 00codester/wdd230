@@ -17,7 +17,7 @@ async function apiFetch() {
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // this is for testing the call
+        // console.log(data); // this is for testing the call
         displayResults(data);
       } else {
           throw Error(await response.text());
@@ -87,7 +87,7 @@ async function apiFetch() {
     let day1datetxt = fcast.list[0].dt_txt;
     const date1 = new Date(day1datetxt);
     day1date.innerHTML = dayConvert(date1.getDay());
-    console.log(date1.getDay());
+    // console.log(date1.getDay());
 
     let day1mintemp = 1000;
     let day1maxtemp = 0;
@@ -110,7 +110,7 @@ async function apiFetch() {
     let day2datetxt = fcast.list[8].dt_txt;
     const date2 = new Date(day2datetxt);
     day2date.innerHTML = dayConvert(date2.getDay());
-    console.log(date2.getDay());
+    // console.log(date2.getDay());
 
     let day2mintemp = 1000;
     let day2maxtemp = 0;
@@ -134,7 +134,7 @@ async function apiFetch() {
     let day3datetxt = fcast.list[16].dt_txt;
     const date3 = new Date(day3datetxt);
     day3date.innerHTML = dayConvert(date3.getDay());
-    console.log(date3.getDay());
+    // console.log(date3.getDay());
 
     let day3mintemp = 1000;
     let day3maxtemp = 0;
