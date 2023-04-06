@@ -10,16 +10,8 @@ function createReceipt () {
     const fruit3 = document.getElementById("fruit3").value;
     const extra = document.getElementById("instructions").value;
 
-    // console.log(pname);
-    // console.log(email);
-    // console.log(phone);
-    // console.log(fruit1);
-    // console.log(fruit2);
-    // console.log(fruit3);
-    // console.log(extra);
-    
 
-    if (pname !== "" && email !== "" && phone !== "") {
+    if (pname !== "" && email !== "" && phone !== "" && fruit1 !== "default" && fruit2 !== "default" && fruit3 !== "default") {
         let h3 = document.createElement("h3");
         h3.textContent = "Receipt:";
         receipt.appendChild(h3);
@@ -61,3 +53,47 @@ function createReceipt () {
 }
 
 document.getElementById("clicked").addEventListener("click", createReceipt);
+
+const url =`https://brotherblazzard.github.io/canvas-content/fruit.json`;
+
+async function apiFetch() {
+    try {
+      const response = await fetch(url);
+      if (response.ok) {
+        const data = await response.json();
+        console.log(data); // this is for testing the call
+        displayResults(data);
+      } else {
+          throw Error(await response.text());
+      }
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+function displayResults(fruitData){
+    let fruit1options = document.getElementById("fruit1");
+    let fruit2options = document.getElementById("fruit2");
+    let fruit3options = document.getElementById("fruit3");
+    let i = 0;
+    while ( i < fruitData.length  ){
+        let fruitname = fruitData[i].name;
+        let option1 = document.createElement("option");
+        let option2 = document.createElement("option");
+        let option3 = document.createElement("option");
+        option1.value = fruitname;
+        option2.value = fruitname;
+        option3.value = fruitname;
+        option1.textContent = fruitname;
+        option2.textContent = fruitname;
+        option3.textContent = fruitname;
+
+        fruit1options.appendChild(option1);
+        fruit2options.appendChild(option2);
+        fruit3options.appendChild(option3);
+
+        i++;
+    }
+}
+
+apiFetch();

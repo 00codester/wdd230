@@ -47,7 +47,7 @@ async function apiFetch() {
       const response = await fetch(urlforcast);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // this is for testing the call
+        //console.log(data); // this is for testing the call
         displayForecast(data);
       } else {
           throw Error(await response.text());
