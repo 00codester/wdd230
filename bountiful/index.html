@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Bountiful Foods</title>
+</head>
+<body>
+    <header>
+        <div class="ultiflexcont">
+
+        
+            <div class="flex-container">
+                <button id="hamburgerBtn" ><span>&#9776;</span><span>X</span></button>
+                <div class="social">
+                    <a href="https://facebook.com">
+                        <img src="images/facebook.png" alt="facebook">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="images/twitter.png" alt="twitter">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="images/insta.png" alt="instagram">
+                    </a>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/bflogo.png" alt="bf logo">
+                    </a>
+                </div>
+            </div>
+            <nav>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">The Fresh</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="imgbanner">
+            <img src="images/fruit.jpg" alt="fruit" loading="lazy">
+            <img src="images/detox.jpg" alt="detox" loading="lazy">
+            <img id="goneImg" src="images/smoothie.jpg" alt="smoothie" loading="lazy">
+
+        </div>
+        <div id="drinks">
+            <h3>Drinks so Far:</h3>
+            <h4><span id="dsfar"></span></h4>
+        </div>
+        <div class="callBtn">
+            <button id="getrefreshedBtn"><a href="#">Get Refreshed</a></button>
+        </div>
+        <div class="weatherapp">
+            <h3>Weather</h3>
+            <p id="temperature"><span id="temp"></span>&#8457;</p> 
+            <figure>
+                <img src="#" alt="#" id="weather-icon">
+                <figcaption></figcaption>
+            </figure>
+            <p class="humid" >Humidity: <span id="humidity"></span> %</p> 
+            <div class="daycontainer">
+                <div id="3day1">
+                    <p class="3day"><span class="dayhead" id="day1date"></span></p>
+                    <p class="3day"> Min: <span id="day1min"></span>&#8457;</p>
+                    <p class="3day">Max: <span id="day1max"></span>&#8457;</p>
+                </div>
+                <div id="3day2">
+                    <p class="3day"><span class="dayhead" id="day2date"></span></p>
+                    <p class="3day"> Min: <span id="day2min"></span>&#8457;</p>
+                    <p class="3day">Max: <span id="day2max"></span>&#8457;</p>
+                </div>
+                <div id="3day3">
+                    <p class="3day"><span class="dayhead" id="day3date"></span> </p>
+                    <p class="3day">Min: <span id="day3min"></span>&#8457;</p>
+                    <p class="3day">Max: <span id="day3max"></span>&#8457;</p>
+                </div>
+            </div>
+        </div>
+        <div class="mainimg">
+            <img src="images/beachBanner.jpg">
+        </div>
+        <div class="coastInfo">
+            <h3>Coastal Info</h3>
+            <p>The entire California coast stretches for 840 miles passing
+                major cities such as San Francisco, San Diego, and Los Angeles.
+                <img src="images/santacruz.jpg" alt="Santa Cruz" loading="lazy">Many majestic and picturesque views await those that venture
+                any length of the coastline. While beautiful, the water along
+                the coast is colder than one is led to believe. 
+                <img src="images/sunset.jpg" alt="sunset" loading="lazy">For this reason
+                many people don't venture too far into the water. Though swimming
+                in the brisk water is not done for long, surfing is a major pasttime
+                along the coast. 
+                <img src="images/waterfall.jpg" alt="waterfall" loading="lazy">
+            </p>
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="footerFlex">
+            <div class="businessInfo">
+                <p>Bountiful Foods</p>
+                <p>3179 Carlsbad Blvd</p>
+                <p>Carlsbad, CA 92008</p>
+            </div>
+
+            <div class="logo footLogo">
+                <a href="index.html">
+                    <img src="images/bflogo.png" alt="bf logo" loading="lazy">
+                </a>
+            </div>
+        </div>
+        <div id="lastMod">
+        </div>
+    </footer>
+    <script src="scripts/weatherapi.js"></script>
+    <script src="scripts/hmbgr.js"></script>
+</body>
+</html>

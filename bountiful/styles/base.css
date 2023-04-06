@@ -1,0 +1,189 @@
+header {
+    background-color: #6eeb83;
+    margin-bottom: 1rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#hamburgerBtn{
+    flex: .5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    font-size: 3rem;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social img{
+    max-width: 50px;
+    max-height: auto;
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2vw;
+    border-top: 1px solid rgba(0,0,0,.5);
+}
+
+nav ul li a:hover{
+    background-color: #e8aa14;
+}
+
+.logo {
+    justify-content: right;
+}
+
+.logo img {
+    max-width: 100px;
+    max-height: auto;
+    padding-top: .4rem;
+    padding-right: .4rem;
+}
+
+/** Hamburger Button **/
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {display:block;}
+#hamburgerBtn span:nth-child(2) {display:none;}
+
+#hamburgerBtn.open span:nth-child(1) {display:none;}
+#hamburgerBtn.open span:nth-child(2) {display:block;}
+
+
+/** Main Section **/
+.imgbanner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgbanner img {
+    max-width: 125px;
+    max-height: auto;
+    border-radius: 20px;
+}
+
+.mainimg{
+    display: none;
+}
+
+#drinks{
+    border: 1px solid rgba(0,0,0,.5);
+    margin: 2rem;
+    padding: .5rem;
+    text-align: center;
+    background-color: #e4ff1a;
+    border-radius: 1rem;
+    height: 10rem;
+}
+
+.weatherapp{
+    text-align: center;
+    border: 1px solid rgba(0,0,0,.5);
+    margin: 2rem;
+    border-radius: 1rem;
+    background-color: #e4ff1a;
+}
+
+.daycontainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dayhead {
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+}
+
+.callBtn {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.callBtn button {
+    height: 3rem;
+    width: 50%;
+    border-radius: 1rem;
+    background-color: #e8aa14;
+    font-size: 1.2rem;
+}
+
+.coastInfo{
+    text-align: center;
+    margin: 2rem;
+    border: 1px solid rgba(0,0,0,.5);
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #e4ff1a;
+}
+
+.coastInfo img {
+    max-width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+
+
+footer {
+    background-color: #6eeb83;
+
+}
+
+.footerFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footLogo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.businessInfo{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+}
+
+.businessInfo p{
+    margin: 0;
+    padding-left: .5rem;
+    padding-top: .5rem;
+}

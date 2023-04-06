@@ -1,0 +1,37 @@
+@media only screen and (min-width: 67rem) {
+
+#hamburgerBtn {
+    display: none;
+}
+
+.ultiflexcont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.flex-container {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+/* nav {
+    margin: 0 auto;
+} */
+#primaryNav{
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-content: space-around;
+    align-items: end;
+}
+
+#primaryNav li {
+    /* display: inline-flex;
+    justify-content: space-around; */
+}
+
+nav ul li a {
+    border-top: none;
+}
+
+}
