@@ -257,3 +257,16 @@ form label input:required:valid {
     border: 1px solid rgba(0,0,0,.5);
     border-radius: 1rem;
 }
+
+#drinkOrder {
+    margin: 1rem;
+    background-color: #e4ff1a;
+    border: 1px solid rgba(0,0,0,.5);
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.freshpage ul {
+    list-style-type: none;
+    padding: 0;
+}

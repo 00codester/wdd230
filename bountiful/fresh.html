@@ -43,13 +43,13 @@
             </nav>
         </div>
     </header>
-    <main>
-        <form method="get">
+    <main class="freshpage">
+        <form method="get" id="freshform"> <!--action="scripts/form.js"> -->
             <fieldset>
                 <legend>Personal Information</legend>
-                <label class="personal">First Name* <input type="text" name="fname" required></label>
-                <label class="personal">Email* <input type="email" name="email" required></label>
-                <label class="personal">Phone #* <input type="tel" name="phone" required></label>
+                <label class="personal">First Name* <input type="text" id="fname" name="fname" required></label>
+                <label class="personal">Email* <input type="email" id="email" name="email" required></label>
+                <label class="personal">Phone #* <input type="tel" id="phone" name="phone" required></label>
                 
             </fieldset>
             <fieldset>
@@ -66,16 +66,17 @@
                         <option value="default" selected>Select One...</option>
                     </select> 
                 </label>
-                <label class="special">Special Instructions <textarea class="specialtext"></textarea></label>
+                <label class="special">Special Instructions <textarea class="specialtext" id="instructions"></textarea></label>
             </fieldset>
-            <div class="submitDiv">
-                <input type="submit" value="Get Refreshed" class="submitB">
 
-            </div>
 
         </form>
+        <div class="submitDiv">
+            <!-- <input type="submit" value="Get Refreshed" class="submitB" id="clicked"> -->
+            <button class="submitB" id="clicked">Get Refreshed</button>
 
-        <div class="drinkOrder"></div>
+        </div>
+        <div id="drinkOrder"></div>
 
 
     </main>
@@ -96,7 +97,7 @@
         <div id="lastMod">
         </div>
     </footer>
-    <script src="scripts/weatherapi.js"></script>
+    <script src="scripts/form.js"></script>
     <script src="scripts/hmbgr.js"></script>
 </body>
 </html>
