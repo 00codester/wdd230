@@ -274,3 +274,38 @@ form label input:required:valid {
     list-style-type: none;
     padding: 0;
 }
+
+
+/* about us page */
+.aboutpage {
+    margin: 1rem;
+}
+.aboutpage h2{
+    text-align: center;
+}
+
+.aboutus {
+    background-color: #e4ff1a;
+    border: 1px solid rgba(0,0,0,.5);
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.aboutus h3{
+    margin-top: 0;
+    text-align: center;
+}
+
+/* .iframdiv {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+} */
+
+.frame {
+    margin: 0 auto;
+    display: block;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
