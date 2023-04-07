@@ -27,7 +27,7 @@ header {
 
 .social img{
     max-width: 50px;
-    max-height: auto;
+    height: auto;
     border-radius: 50%;
     padding: .5rem;
 }
@@ -63,7 +63,7 @@ nav ul li a:hover{
 
 .logo img {
     max-width: 100px;
-    max-height: auto;
+    height: auto;
     padding-top: .4rem;
     padding-right: .4rem;
 }
@@ -92,7 +92,7 @@ nav ul.open {
 
 .imgbanner img {
     max-width: 125px;
-    max-height: auto;
+    height: auto;
     border-radius: 20px;
 }
 
