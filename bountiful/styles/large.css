@@ -1,5 +1,10 @@
 @media only screen and (min-width: 67rem) {
 
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 #hamburgerBtn {
     display: none;
 }
