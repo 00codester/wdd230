@@ -297,15 +297,16 @@ form label input:required:valid {
     text-align: center;
 }
 
-/* .iframdiv {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-} */
 
 .frame {
     margin: 0 auto;
     display: block;
     border-radius: 1rem;
     margin-bottom: 2rem;
+}
+
+/*last mod*/
+
+#lastMod {
+    margin: .5rem;
 }

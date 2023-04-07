@@ -5,3 +5,5 @@ function toggleMenu () {
 
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
+
+document.querySelector("#lastMod").textContent = `Last Modification: ${document.lastModified}`;
